@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "About";
 ---
 
 <html lang="en">
@@ -8,7 +8,13 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>About Troop 22</title>
+		<title>{pageTitle}</title>
+    <style>
+      h1 {
+        color: rgb(0, 43, 124);
+        font-size: 4rem;
+      }
+    </style>
 	</head>
 	<body>
 		<h1>About Troop 22</h1>
