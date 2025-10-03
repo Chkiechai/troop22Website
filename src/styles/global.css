@@ -1,5 +1,5 @@
 html {
-  background-color: #e3eaf1;
+  background-color: #f0f7ff;
   font-family: sans-serif;
 }
 
@@ -90,4 +90,28 @@ h1 {
   .menu {
     display: none;
   }
+}
+
+/* NIGHT MODE STYLING*/
+html.dark {
+  background-color: #000d38;
+  color: #fff;
+}
+
+.dark .menu {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark .nav-links a:hover,
+.dark .nav-links a:focus {
+  color: #0d0950;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.dark a {
+  color: #ff9776;
 }
