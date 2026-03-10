@@ -5,14 +5,12 @@ const pageTitle = "Activities";
 const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>Troop 22 Rocks!</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor incididunt ut labore
-    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h6>WHAT WE DO ——— </h6>
+  <h3 class="signal-header-cursive">Adventure Awaits</h3>
+  
+  <p>From weekly meetings to exciting campouts, Troop 22 offers a variety of activities for our girls to participate in and grow from.
+     Each activity we do builds communication, life, and leadership skills that will prove invaluable in adulthood.</p>
+  <p>Below, you can find descriptions of some of our most fun activities!</p>
   
   <ul>
     {allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}

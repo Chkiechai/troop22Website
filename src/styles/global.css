@@ -1,3 +1,4 @@
+
 html {
   background-color: #0d412a;
   font-family: sans-serif;
@@ -23,6 +24,17 @@ body {
 
 .signal-header-cursive{
   font-family: 'Brush Script MT', cursive;
+}
+
+.signal-header-cursive-gold{
+  font-family: 'Brush Script MT', cursive;
+  color: #d8b74a;
+}
+
+.formatted-info-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 0.5;
+  font-size: small;
 }
 
 h1 {
@@ -65,7 +77,7 @@ h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #69631e;
+  background-color: #8b752d;
 }
 
 @media screen and (min-width: 636px) {
@@ -85,7 +97,7 @@ h1 {
 
 /* nav styles */
 .menu {
-  background-color: #ddb800;
+  background-color: #d8b74a;
   border: none;
   color: #fff;
   font-size: 1.2rem;

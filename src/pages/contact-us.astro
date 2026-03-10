@@ -1,13 +1,24 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Contact Us: Troop 22";
+import BaseLayout from '../layouts/ContactBaseLayout.astro';
+const pageTitle = "Contact Us";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>Contact Us</h2>
-  <p>We would love to hear from you! Please feel free to reach out with any questions or comments.</p>
-  <p>You can contact us at:</p>
-  <ul>
-    <li>Email: troop22@example.com</li>
-    <li>Phone: (123) 456-7890</li>
-  </ul>
+    <h6>GET IN TOUCH ——— </h6>
+    <h3 class="signal-header-cursive">We'd love to hear from you!</h3>
+    <h6>Have questions about joining, our schedule, or anything else? Drop us a line — we're here to help!</h6>
+
+
+    <h4 class="signal-header-cursive-gold">⬡ LOCATION ⬡</h4>
+    <p class="formatted-info-text">Grace United Methodist Church</p>
+    <p class="formatted-info-text">Cape Girardeau, MO</p>
+
+    <h4 class="signal-header-cursive-gold">⬡ COUNCIL ⬡</h4>
+    <p class="formatted-info-text">Shawnee District</p>
+    <p class="formatted-info-text">Greater St. Louis Area Council</p>
+
+    <h4 class="signal-header-cursive-gold">⬡ CONTACT INFO ⬡</h4>
+    <p class="formatted-info-text">Email: troop22@example.com</p>
+    <p class="formatted-info-text">Phone: (123) 456-7890</p>
+
+
 </BaseLayout>
