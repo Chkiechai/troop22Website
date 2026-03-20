@@ -131,3 +131,18 @@ h1 {
     align-content: center;
   }
 }
+
+/* tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    margin: 0.25em;
+    border: dotted 1px #545554;
+    border-radius: .5em;
+    padding: .5em 1em;
+    font-size: 1.15em;
+    background-color: #c4f5a8;
+  }

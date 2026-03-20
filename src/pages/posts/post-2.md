@@ -1,13 +1,14 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Test Post 2'
-pubDate: 2025-10-03
-description: 'This is another test post for the website'
+title: 'Trivia Night Bake Sale'
+pubDate: 2026-03-20
+description: 'Trivia Night Preparations'
 author: 'Troop 22 SPL'
+Event : true
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["blogging", "troop 22"]
+    url: '/assets/default-blog-img.webp'
+    alt: 'The Troop 22 LOGO'
+tags: ["Events", "Troop 22", "Fundraising"]
 ---
 # Test Blog Post 2
 

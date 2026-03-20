@@ -1,8 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
 const pageTitle = "Activities";
-const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h6>WHAT WE DO ——— </h6>
@@ -12,7 +10,4 @@ const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true })
      Each activity we do builds communication, life, and leadership skills that will prove invaluable in adulthood.</p>
   <p>Below, you can find descriptions of some of our most fun activities!</p>
   
-  <ul>
-    {allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
-  </ul>
 </BaseLayout>
